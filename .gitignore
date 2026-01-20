@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data & Databases
+data/chroma_db/
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video (if large)
+demo/*.mp4
+demo/*.mov
+.env
+.env.*

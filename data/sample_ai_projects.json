@@ -1,0 +1,212 @@
+[
+  {
+    "problem_description": "Large retailer with physical stores and e-commerce operates in silos, causing inconsistent pricing, promotions, and inventory.",
+    "ai_approach": "Unify experiences by integrating data for real-time inventory checks and analytics.",
+    "tech_stack": "Google Kubernetes Engine (GKE), BigQuery, Cloud CDN, Apigee, Cloud Spanner (adaptable to Azure equivalents like AKS, Azure Synapse, Azure CDN, API Management, Azure Cosmos DB)",
+    "outcome": "Streamlined supply chain analytics and demand forecasting."
+  },
+  {
+    "problem_description": "Store managers need accurate, real-time inventory recommendations to boost efficiency.",
+    "ai_approach": "Predict demand using historical data to recommend stock levels.",
+    "tech_stack": "BigQuery, Vertex AI, Looker, Google Workspace (adaptable to Azure Synapse, Azure OpenAI, Power BI, Microsoft 365)",
+    "outcome": "Dashboards with recommended stock levels pushed to devices."
+  },
+  {
+    "problem_description": "Millions of unique items require highly relevant, fast, personalized search.",
+    "ai_approach": "Process item details and user interactions in real-time for personalized rankings.",
+    "tech_stack": "Google Cloud Storage, Dataflow, BigQuery, GKE (adaptable to Azure Blob Storage, Azure Data Factory, Azure Synapse, AKS)",
+    "outcome": "Personalized search rankings served in milliseconds."
+  },
+  {
+    "problem_description": "Digitize legacy paper-based processes for store associates to improve productivity.",
+    "ai_approach": "Analyze images to identify products and check compliance.",
+    "tech_stack": "Vertex AI Vision, GKE (adaptable to Azure Computer Vision, AKS)",
+    "outcome": "Devices display inventory status, ordering needs, or planogram compliance."
+  },
+  {
+    "problem_description": "Traditional support channels feel impersonal and can't visually guide customers.",
+    "ai_approach": "Generate responses and identify visual aids for troubleshooting.",
+    "tech_stack": "Vertex AI, Google Cloud Storage, GKE, Speech-to-Text & Text-to-Speech APIs (adaptable to Azure OpenAI, Azure Blob Storage, AKS, Azure Speech Services)",
+    "outcome": "Quick resolution with text and video guidance."
+  },
+  {
+    "problem_description": "Create unique, high-quality, SEO-friendly product descriptions at scale.",
+    "ai_approach": "Analyze attributes to generate description options.",
+    "tech_stack": "Vertex AI, Cloud Run, BigQuery (adaptable to Azure OpenAI, Azure Functions, Azure Synapse)",
+    "outcome": "Multiple description options for review and approval."
+  },
+  {
+    "problem_description": "Customers find products using a photo as reference.",
+    "ai_approach": "Convert photo to vector embedding for visual similarity search.",
+    "tech_stack": "Vertex AI Vision, Vector Search, Google Cloud Storage, Cloud Run (adaptable to Azure Computer Vision, Azure AI Search, Azure Blob Storage, Azure Functions)",
+    "outcome": "Matching products returned in seconds."
+  },
+  {
+    "problem_description": "Increase basket size with recommendations understanding customer intent.",
+    "ai_approach": "Process clickstream data for real-time user profiles and embeddings.",
+    "tech_stack": "BigQuery, Vector Search, Dataflow, Cloud Run (adaptable to Azure Synapse, Azure AI Search, Azure Data Factory, Azure Functions)",
+    "outcome": "Personalized product lists displayed in milliseconds."
+  },
+  {
+    "problem_description": "Feedback in unstructured text delays insights on trends.",
+    "ai_approach": "Categorize feedback in spreadsheets.",
+    "tech_stack": "Google Sheets, Gemini for Google Workspace (adaptable to Excel, Azure OpenAI)",
+    "outcome": "Structured data for charts and trend identification."
+  },
+  {
+    "problem_description": "Compare vendor proposals from emails manually.",
+    "ai_approach": "Generate comparison tables from attachments.",
+    "tech_stack": "Gmail, Gemini for Google Workspace (adaptable to Outlook, Azure OpenAI)",
+    "outcome": "Concise summary and table for informed decisions."
+  },
+  {
+    "problem_description": "Duplicate listings from multiple vendors clutter catalog.",
+    "ai_approach": "Convert text/images to embeddings and cluster for duplicates.",
+    "tech_stack": "BigQuery, Vertex AI, Dataflow (adaptable to Azure Synapse, Azure OpenAI, Azure Data Factory)",
+    "outcome": "Duplicate sets for review or automated merging."
+  },
+  {
+    "problem_description": "Create highlight reels or podcasts from commentary manually.",
+    "ai_approach": "Transcribe audio and generate summaries of exciting moments.",
+    "tech_stack": "Google Cloud Speech-to-Text, Vertex AI, Cloud Functions, Google Cloud Storage (adaptable to Azure Speech Services, Azure OpenAI, Azure Functions, Azure Blob Storage)",
+    "outcome": "Daily highlights podcast in minutes."
+  },
+  {
+    "problem_description": "Deliver personalized content to fans from unified data.",
+    "ai_approach": "Train recommendation model on interactions and game data.",
+    "tech_stack": "BigQuery, Vertex AI Search, Vector Search, Dataflow, Cloud Run (adaptable to Azure Synapse, Azure AI Search, Azure Data Factory, Azure Functions)",
+    "outcome": "Personalized content in real-time."
+  },
+  {
+    "problem_description": "Create deeply personal media campaigns.",
+    "ai_approach": "Process user data to generate personalized assets.",
+    "tech_stack": "BigQuery, Vertex AI, Dataflow, Cloud Run, Google Cloud Storage (adaptable to Azure Synapse, Azure OpenAI, Azure Data Factory, Azure Functions, Azure Blob Storage)",
+    "outcome": "Pre-generated personalized assets for users."
+  },
+  {
+    "problem_description": "Create captions for massive video archive manually.",
+    "ai_approach": "Transcribe audio and label speakers.",
+    "tech_stack": "Google Cloud Storage, Speech-to-Text API, Vertex AI, Cloud Functions (adaptable to Azure Blob Storage, Azure Speech Services, Azure OpenAI, Azure Functions)",
+    "outcome": "Time-stamped, searchable caption file."
+  },
+  {
+    "problem_description": "Create social media clips and captions manually.",
+    "ai_approach": "Analyze footage for exciting moments and generate captions.",
+    "tech_stack": "Gemini for Google Drive, Google Drive (adaptable to Azure OpenAI for OneDrive, OneDrive)",
+    "outcome": "Clips and captions in interface."
+  },
+  {
+    "problem_description": "Create personalized ad variations expensively.",
+    "ai_approach": "Generate scripts for audience segments.",
+    "tech_stack": "Vertex AI, Text-to-Speech API, Cloud Run, BigQuery (adaptable to Azure OpenAI, Azure Speech Services, Azure Functions, Azure Synapse)",
+    "outcome": "Hundreds of ad variations in minutes."
+  },
+  {
+    "problem_description": "Create marketing materials for local branches without designers.",
+    "ai_approach": "Generate graphics from prompts.",
+    "tech_stack": "Vertex AI, Google Cloud Storage (adaptable to Azure OpenAI, Azure Blob Storage)",
+    "outcome": "Professional assets without expertise."
+  },
+  {
+    "problem_description": "Find information in massive course library.",
+    "ai_approach": "Index content for natural language search.",
+    "tech_stack": "Vertex AI Search, BigQuery, Google Cloud Storage (adaptable to Azure AI Search, Azure Synapse, Azure Blob Storage)",
+    "outcome": "Ranked relevant results."
+  },
+  {
+    "problem_description": "Render high-quality video quickly.",
+    "ai_approach": "Scale GPU/TPU for rendering.",
+    "tech_stack": "Cloud GPUs/TPUs, GKE, Google Cloud Storage (adaptable to Azure GPUs, AKS, Azure Blob Storage)",
+    "outcome": "Fast video rendering with auto-scaling."
+  },
+  {
+    "problem_description": "Engage viewers with personalized content.",
+    "ai_approach": "Process interactions for recommendations.",
+    "tech_stack": "BigQuery, Vertex AI, Dataflow, Cloud Run (adaptable to Azure Synapse, Azure OpenAI, Azure Data Factory, Azure Functions)",
+    "outcome": "Personalized content suggestions."
+  },
+  {
+    "problem_description": "Traditional manuals are cumbersome for complex products.",
+    "ai_approach": "Generate conversational answers from manual content.",
+    "tech_stack": "Vertex AI, AlloyDB for PostgreSQL, Cloud Run, Google Cloud Storage (adaptable to Azure OpenAI, Azure PostgreSQL, Azure Functions, Azure Blob Storage)",
+    "outcome": "Clear answers for queries like changing a tire."
+  },
+  {
+    "problem_description": "React to dangerous situations in transit manually.",
+    "ai_approach": "Analyze audio for distress keywords.",
+    "tech_stack": "Speech-to-Text API, Vertex AI, Pub/Sub, Cloud Functions (adaptable to Azure Speech Services, Azure OpenAI, Azure Event Grid, Azure Functions)",
+    "outcome": "Automated security alerts."
+  },
+  {
+    "problem_description": "Create context-aware advertising for mobile assets.",
+    "ai_approach": "Generate headlines based on location data.",
+    "tech_stack": "Gemini, Google Maps Platform, Cloud Run, BigQuery (adaptable to Azure OpenAI, Azure Maps, Azure Functions, Azure Synapse)",
+    "outcome": "Real-time relevant billboards."
+  },
+  {
+    "problem_description": "Agents spend time on summaries.",
+    "ai_approach": "Summarize customer history for context.",
+    "tech_stack": "Vertex AI, BigQuery, Cloud Functions (adaptable to Azure OpenAI, Azure Synapse, Azure Functions)",
+    "outcome": "Concise summaries in CRM."
+  },
+  {
+    "problem_description": "Healthcare providers need to extract structured data from unstructured medical records for research and compliance.",
+    "ai_approach": "Use NLP models to identify and extract medical entities, diagnoses, and treatment plans from clinical notes.",
+    "tech_stack": "Azure Healthcare APIs, Azure OpenAI, Azure Synapse Analytics, Power BI",
+    "outcome": "Automated extraction with 95% accuracy, enabling faster research insights."
+  },
+  {
+    "problem_description": "Financial institutions need real-time fraud detection across millions of transactions daily.",
+    "ai_approach": "Deploy anomaly detection models with real-time inference on transaction streams.",
+    "tech_stack": "AWS SageMaker, AWS Lambda, Amazon Kinesis, DynamoDB",
+    "outcome": "Fraud detection latency reduced to under 100ms with 98% precision."
+  },
+  {
+    "problem_description": "Manufacturing plants need predictive maintenance to reduce downtime and costs.",
+    "ai_approach": "Analyze sensor data with time-series models to predict equipment failures.",
+    "tech_stack": "Azure IoT Hub, Azure Machine Learning, Azure Digital Twins, Power BI",
+    "outcome": "30% reduction in unplanned downtime and $2M annual savings."
+  },
+  {
+    "problem_description": "Legal firms need to analyze thousands of contracts for risk assessment and compliance.",
+    "ai_approach": "Use document AI to extract clauses, identify risks, and generate summaries.",
+    "tech_stack": "Azure Form Recognizer, Azure OpenAI, Azure Cognitive Search, Logic Apps",
+    "outcome": "Contract review time reduced from days to hours."
+  },
+  {
+    "problem_description": "HR teams need to screen hundreds of resumes and match candidates to job requirements.",
+    "ai_approach": "Build semantic search and ranking system using embeddings and LLMs.",
+    "tech_stack": "Groq LLM, ChromaDB, FastAPI, PostgreSQL",
+    "outcome": "Candidate screening time reduced by 70%, quality matches improved."
+  },
+  {
+    "problem_description": "Educational institutions need personalized learning paths based on student performance and learning style.",
+    "ai_approach": "Analyze student data to recommend courses, resources, and study plans.",
+    "tech_stack": "AWS Personalize, Amazon SageMaker, S3, QuickSight",
+    "outcome": "Student engagement increased 40%, course completion rates up 25%."
+  },
+  {
+    "problem_description": "Supply chain teams need demand forecasting to optimize inventory across multiple warehouses.",
+    "ai_approach": "Build time-series forecasting models using historical sales and external factors.",
+    "tech_stack": "Google Cloud Vertex AI, BigQuery, Looker Studio, Cloud Functions",
+    "outcome": "Forecast accuracy improved to 92%, inventory costs reduced 15%."
+  },
+  {
+    "problem_description": "Real estate platforms need property valuation models that adapt to market changes.",
+    "ai_approach": "Train regression models on property features, location data, and market trends.",
+    "tech_stack": "Azure Machine Learning, Azure Maps, Cosmos DB, Power Apps",
+    "outcome": "Valuation accuracy within 5% of market price, updated daily."
+  },
+  {
+    "problem_description": "Social media platforms need content moderation at scale to filter harmful content.",
+    "ai_approach": "Deploy multi-modal AI models to analyze text, images, and videos for policy violations.",
+    "tech_stack": "AWS Rekognition, AWS Comprehend, Lambda, SQS, DynamoDB",
+    "outcome": "99.5% harmful content detection with <1% false positives."
+  },
+  {
+    "problem_description": "Travel companies need dynamic pricing engines that respond to demand, competition, and seasonality.",
+    "ai_approach": "Build reinforcement learning models for real-time price optimization.",
+    "tech_stack": "Google Cloud Vertex AI, BigQuery, Cloud Run, Pub/Sub",
+    "outcome": "Revenue increased 18%, occupancy rates optimized across seasons."
+  }
+]

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Requirement Analyzer</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>🤖 AI Project Requirement Analyzer</h1>
+            <p class="subtitle">Powered by Groq + RAG</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Chat Messages -->
+            <div class="chat-container" id="chatContainer">
+                <div class="welcome-message">
+                    <h2>👋 Welcome!</h2>
+                    <p>I'm your AI consultant. Describe your project idea, and I'll help you structure it into a clear requirement document.</p>
+                    <div class="example-queries">
+                        <p><strong>Try asking:</strong></p>
+                        <ul>
+                            <li>"I need a chatbot for customer support"</li>
+                            <li>"Help me build a recommendation system"</li>
+                            <li>"I want to analyze customer feedback at scale"</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <textarea 
+                    id="userInput" 
+                    placeholder="Describe your AI project idea..."
+                ></textarea>
+                <button id="sendBtn" class="send-btn">
+                    <span id="btnText">Send</span>
+                    <span id="btnLoader" class="loader hidden"></span>
+                </button>
+            </div>
+        </main>
+
+        <!-- Sidebar - Similar Projects -->
+        <aside class="sidebar" id="sidebar">
+            <h3>📊 Similar Past Projects</h3>
+            <div id="similarProjects" class="similar-projects-list">
+                <p class="empty-state">Similar projects will appear here after your first query.</p>
+            </div>
+        </aside>
+
+        <!-- Status Bar -->
+        <div class="status-bar">
+            <div class="status-item">
+                <span class="status-label">Status:</span>
+                <span id="connectionStatus" class="status-value">Checking...</span>
+            </div>
+            <div class="status-item">
+                <span class="status-label">Projects in DB:</span>
+                <span id="projectCount" class="status-value">-</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
